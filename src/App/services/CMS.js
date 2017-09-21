@@ -1,10 +1,8 @@
 import { initializeApp, database } from 'firebase'
 
 const config = {
-  apiKey: "AIzaSyBS3A7XkkjiKfGjLOJiE-k3IiBd49MOH-o",
-  authDomain: "resume-page-40ed7.firebaseapp.com",
-  databaseURL: "https://resume-page-40ed7.firebaseio.com",
-  projectId: "resume-page-40ed7",
+  apiKey: process.env.REACT_APP_API_KEY,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
 }
 initializeApp(config);
 

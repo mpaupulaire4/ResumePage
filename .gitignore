@@ -9,6 +9,7 @@
 # production
 /build
 /**/*.css
+.env
 
 # misc
 .DS_Store
